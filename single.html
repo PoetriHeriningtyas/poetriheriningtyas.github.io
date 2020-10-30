@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Present &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Poetri &mdash; A Lifelong Learner</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -39,7 +39,7 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="favicon.ico?">
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
@@ -78,7 +78,7 @@
 						<li><a href="about.html">About</a></li>
 						<li class="active"><a href="work.html">Work</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						<li><a href="#">Instagram</a></li>
+						<li><a href="books.html">Books</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -86,95 +86,114 @@
 		<!-- END #fh5co-header -->
 
 		<div class="page-content">
-			<h1 class="mb0">Your Project Title Here</h1>
-			<div class="meta"><span><a href="#">Packaging</a>, <a href="#">Illustration</a></span></div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quaerat nostrum, neque cum, quidem inventore consequatur sunt optio sint! Veritatis maiores recusandae dolores nihil cumque, eaque eius obcaecati voluptatum necessitatibus.</p>
+			<h1 class="mb0">AI Email Scraper</h1>
+			<div class="meta"><span><a href="https://en.wikipedia.org/wiki/Named-entity_recognition">NER</a>, <a href="https://en.wikipedia.org/wiki/Data_scraping">Data Scraping</a></span></div>
+			<p>I involved in AI email scraper project when I was working at OFE. It is maritime tech start up based in Singapore. 
+				Basically, AI email scraper is a system that automate the scraping process of relevant information from email.
+				We categorized email as structured and unstructured. Unstructured scraping happen if email only contain of body text 
+				while stuctured scraping if email has attachment of excel, pdf, or image file.
+			</p>
+			<!--
 			<p><img src="images/img_large_1.jpg" alt="Free HTML5 by FreeHTML5.co"></p>
+			-->
+			<p>The flow of scraping process consists of data retrieval, data classification, data scraping and data cleaning.
+				Data retrieval is the process of retrieving email that clients send to the company. The result is saved in dictionary in MongoDB. In data classification
+				stage, we classified the email as structured or unstructured and also classified the body text to certain categories that product
+				team needed. The result is then saved as dictionary in MongoDB. The scraping process happens in data scraping stage.
+				Unstructured scraping is Named Entity Recognition (NER) problem, we apply state of the art algorithm to solve, LSTM-CNN-CRF using tensorflow library.
+			</p>
+			<!--
 			<p><img src="images/img_large_2.jpg" alt="Free HTML5 by FreeHTML5.co"></p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe officia, consectetur praesentium minus reiciendis, accusamus consequuntur iusto ad illum quibusdam commodi facere tenetur. Culpa quia laborum quam, sint laboriosam delectus veniam, at molestiae magnam iusto similique dolorem ea doloremque!</p>
+			-->
+			<p>Same goes with structured scraping for excel, image, plain text and pdf. Ideally it would be easier to scrape structured information but the real case is not always like that.
+				We got various format of excel, image, plain text and pdf. Thus we need to create algorithm that accomodate all possible cases. As the project is not available for public,
+				I can only give the above explanation. Hope it helps.
+			</p>
+			<!--
 			<p><img src="images/img_large_3.jpg" alt="Free HTML5 by FreeHTML5.co"></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe officia, consectetur praesentium minus reiciendis, accusamus consequuntur iusto ad illum quibusdam commodi facere tenetur. Culpa quia laborum quam, sint laboriosam delectus veniam, at molestiae magnam iusto similique dolorem ea doloremque!</p>
 			<p>Ullam recusandae error odit eveniet soluta temporibus quis mollitia dignissimos quasi, magni culpa sed, minima atque quae a vitae dolores, illo cum sint! Quaerat rem incidunt nihil laborum nulla placeat soluta, fugit dolor aperiam facere itaque laboriosam error ratione praesentium.</p>
+			-->
 		</div>
 
-		<div class="container-fluid">
+		<div class="container-fluid pt70 pb70">
 			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
 				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_20.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+					<a href="https://seputardata.wordpress.com/">
+						<img src="images/img_pro_1.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Seputar Data Blog</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="work/dm_analysis.html">
+						<img src="images/img_pro_2.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Instagram DM Analysis</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="work/employee_turnover.html">
+						<img src="images/img_pro_3.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Employee Turnover Factors</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="work/click_prediction_new.html">
+						<img src="images/img_pro_4.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Click Prediction</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="https://github.com/PoetriHeriningtyas/keywords-clustering/blob/master/keywords_clustering_final.ipynb">
+						<img src="images/img_pro_5.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Keywords Clustering</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="work/keyword_similarity.html">
+						<img src="images/img_pro_6.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Keywords Similarity</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
-						<img src="images/img_19.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<img src="images/img_pro_7.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>PDF Scraping</h2>
+					</a>
+				</div>
+				<div class="fh5co-project masonry-brick">
+					<a href="email_scraper.html">
+						<img src="images/img_pro_8.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>AI Email Scraper</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
-						<img src="images/img_3.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_4.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_5.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_6.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_7.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_8.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
-					</a>
-				</div>
-				<div class="fh5co-project masonry-brick">
-					<a href="single.html">
-						<img src="images/img_9.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<img src="images/img_pro_9.jpg" alt="Free HTML5 by FreeHTML5.co">
+						<h2>Big Data Integration</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
 						<img src="images/img_10.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<h2>Todo: Recommendation System</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
 						<img src="images/img_11.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<h2>Todo: Web Scraping</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
 						<img src="images/img_12.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<h2>Todo: End to end data science flow</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
 					<a href="single.html">
 						<img src="images/img_13.jpg" alt="Free HTML5 by FreeHTML5.co">
-						<h2>Your Project Title Here</h2>
+						<h2>Todo: Multilabel Classification</h2>
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
@@ -227,11 +246,12 @@
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="container-fluid">
 				<div class="footer-content">
-					<div class="copyright"><small>&copy; 2016 Present. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co/">FreeHTML5.co</a> Images: <a href="http://graphicburger.com/">GraphicBurger</a></small></div>
+					<div class="copyright"><small>&copy; 2020 Poetri. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co/">FreeHTML5.co</a> Images: <a href="http://graphicburger.com/">GraphicBurger</a></small></div>
 					<div class="social">
-						<a href="#"><i class="icon-facebook3"></i></a>
-						<a href="#"><i class="icon-instagram2"></i></a>
-						<a href="#"><i class="icon-linkedin2"></i></a>
+						<a href="https://github.com/PoetriHeriningtyas"><i class="icon-github"></i></a>
+						<a href="https://www.instagram.com/poetri.h/"><i class="icon-instagram2"></i></a>
+						<a href="https://www.linkedin.com/in/poetri/"><i class="icon-linkedin2"></i></a>
+						<a href="https://seputardata.wordpress.com/"><i class="icon-wordpress"></i></a>
 					</div>
 				</div>
 			</div>
