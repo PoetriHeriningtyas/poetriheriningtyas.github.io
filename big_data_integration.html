@@ -85,6 +85,22 @@
 		</header>
 		<!-- END #fh5co-header -->
 
+		<div class="page-content">
+			<h1 class="mb0">Big Data Integration</h1>
+			<div class="meta"><span><a href="https://www.talend.com/">Talend</a>, <a href="https://en.wikipedia.org/wiki/Extract,_transform,_load">ETL</a></span></div>
+			<p>I worked on this Big Data Integration project in a private bank as Data Engineer. The existing data warehouse has limitation to their business so they would like to change to Cloudera-Hadoop. 
+				To do this, they requires end-to-end data integration and data governance to do data processing from data source systems into Cloudera. 
+				Talend is used to support the data integration process. Furthermore, Cloudera-Hadoop will be a centralized bank-wide big data repository to support analytics.
+				Data integration process is started by transferring data from data source to Cloudera cluster/data lake. Data is transferred by using Sqoop Process which is managed by Talend and it uses direct connection. 
+				Once data is already stored in Cloudera, Talend will pull the data (in the form of HDFS file) and do the process of data integration. After the process is done the data will be sent back to Cloudera.
+				<p><img src="images/bigdata_integration_9.jpg" alt="Free HTML5 by FreeHTML5.co"></p>
+				Data integration process in this project includes four main processes (labeled with number):
+				1.Trigger process 
+				2.Sqoop Process
+				3.Format Conversion process
+				4.Data integration process
+			</p>
+		</div>
 
 		<div class="container-fluid pt70 pb70">
 			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
@@ -125,7 +141,7 @@
 					</a>
 				</div>
 				<div class="fh5co-project masonry-brick">
-					<a href="pdf_scraping.html">
+					<a href="single.html">
 						<img src="images/img_pro_7.jpg" alt="Free HTML5 by FreeHTML5.co">
 						<h2>PDF Scraping</h2>
 					</a>
